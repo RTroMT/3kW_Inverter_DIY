@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b7c214e3-8b00-404c-b24a-4bde540c0870")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 307.086 9.144)
+		(size 276.606 193.802)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c568f0cf-acf7-4001-97a7-161a28654a82")
+		(property "Sheetname" "DC-DC Stage"
+			(at 307.086 8.4324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DC-DC Stage.kicad_sch"
+			(at 307.086 203.5306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DIY_3kW_HF_Inverter"
+				(path "/b7c214e3-8b00-404c-b24a-4bde540c0870"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

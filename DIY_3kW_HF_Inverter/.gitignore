@@ -1,0 +1,54 @@
+# =========================================================================
+# QUY TẮC RIÊNG CHO DỰ ÁN CỦA BẠN
+# =========================================================================
+# Bỏ qua thư mục history lưu lịch sử chỉnh sửa
+history/
+_history/
+
+# =========================================================================
+# CÁC TỆP TẠM VÀ DỮ LIỆU TỰ SINH CỦA KICAD (KiCad Auto-generated & Backup)
+# =========================================================================
+# Tệp sao lưu sơ đồ nguyên lý và mạch in (Schematic & PCB Backups)
+*.bak
+*-bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Tệp khóa phiên làm việc (Lock files - sinh ra khi đang mở KiCad)
+*.lck
+
+# Tệp lưu vết/lịch sử tự động của riêng KiCad
+*.cadstar
+*.log
+
+# =========================================================================
+# THƯ MỤC SẢN XUẤT & XUẤT FILE (Manufacturing Outputs)
+# =========================================================================
+# Bỏ qua các thư mục chứa file Gerber, BOM, Drill, hoặc PDF xuất ra nếu có
+[Gg]erber/
+[P]lots/
+[B]om/
+[P]df/
+
+# Các định dạng file xuất phổ biến thường không cần quản lý bằng Git
+*.gbr
+*.drl
+*.pho
+*.gbl
+*.gtl
+*.gbs
+*.gts
+*.gto
+*.gbo
+*.gm1
+*.dxf
+*.svg
+*.pos
+*.csv
+*.rpt
+
+# Tệp mô phỏng 3D (Nếu bạn xuất ra STEP/WRL để gửi đi gia công vỏ)
+*.step
+*.stp
+*.wrl
